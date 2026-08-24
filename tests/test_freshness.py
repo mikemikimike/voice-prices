@@ -70,9 +70,9 @@ def test_select_real_catalog_staleness_boundary():
         'lmnt',
         'novita',
         'openai',
-            'rime',
-            'recall',
-            'speechmatics',
+        'rime',
+        'recall',
+        'speechmatics',
         'telnyx',
     }
     for w in every:
