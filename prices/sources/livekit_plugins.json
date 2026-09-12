@@ -194,7 +194,8 @@
       "provides": [
         "stt"
       ],
-      "provider_id": "fireworks"
+      "status": "no_public_rate",
+      "note": "Fireworks moved model rates off the pricing page into its docs, and neither the pricing page nor the docs pricing page carries an audio or transcription rate. Only tokens, training and GPU-seconds are published."
     },
     {
       "package": "livekit-plugins-fishaudio",
@@ -203,7 +204,8 @@
       "provides": [
         "tts"
       ],
-      "status": "not_investigated"
+      "status": "not_investigated",
+      "note": "fish.audio/pricing renders no rates, only a funding announcement."
     },
     {
       "package": "livekit-plugins-gladia",
@@ -212,7 +214,7 @@
       "provides": [
         "stt"
       ],
-      "status": "not_investigated"
+      "provider_id": "gladia"
     },
     {
       "package": "livekit-plugins-gnani",
@@ -348,7 +350,8 @@
         "tts",
         "llm"
       ],
-      "provider_id": "mistral"
+      "status": "no_public_rate",
+      "note": "The pricing page says speech models are billed per minute but renders no Voxtral rate in readable text, and the docs pricing URL redirects back to it. Needs a human to read the rendered table."
     },
     {
       "package": "livekit-plugins-murf",
@@ -357,7 +360,8 @@
       "provides": [
         "tts"
       ],
-      "status": "not_investigated"
+      "status": "not_investigated",
+      "note": "murf.ai/api/pricing renders empty headless (66 chars); the main pricing page shows only studio subscription plans. Needs a real browser."
     },
     {
       "package": "livekit-plugins-neuphonic",
@@ -472,7 +476,8 @@
         "tts",
         "llm"
       ],
-      "status": "not_investigated"
+      "status": "non_usd_currency",
+      "note": "Checked 2026-09-11. Sarvam publishes a full public rate card, entirely in INR: https://www.sarvam.ai/api-pricing and https://docs.sarvam.ai/api/getting-started/pricing, the latter stating \"All prices are in Indian Rupees\". TTS Bulbul v3 Rs 3.00/1,000 chars, STT Rs 30/hour (Rs 45 with diarization), LLM Sarvam 105B Rs 29.28/10.98/73.20 per 1M tokens. No USD page, no currency toggle, and no USD anywhere in either page source. This catalog is USD-only and does not convert, so the rates are unusable here, not unpublished."
     },
     {
       "package": "livekit-plugins-silero",
@@ -514,7 +519,8 @@
         "stt",
         "tts"
       ],
-      "status": "not_investigated"
+      "status": "no_public_rate",
+      "note": "Publishes only approximate per-minute figures for a whole voice-agent stack (~$0.009/min STT, ~$0.09/min TTS), tildes included, with no per-character or per-second rate for the TTS and STT APIs the plugin actually calls."
     },
     {
       "package": "livekit-plugins-soniox",
@@ -538,7 +544,8 @@
       "provides": [
         "tts"
       ],
-      "status": "not_investigated"
+      "status": "not_investigated",
+      "note": "speechify.com/api/pricing renders empty headless (46 chars). Needs a real browser."
     },
     {
       "package": "livekit-plugins-speechmatics",
@@ -602,7 +609,8 @@
       "provides": [
         "tts"
       ],
-      "status": "not_investigated"
+      "status": "not_investigated",
+      "note": "No dollar amounts in the rendered pricing page."
     },
     {
       "package": "livekit-plugins-xai",

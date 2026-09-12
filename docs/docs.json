@@ -54,6 +54,7 @@
               "stt/cartesia",
               "stt/deepgram",
               "stt/elevenlabs",
+              "stt/gladia",
               "stt/google",
               "stt/groq",
               "stt/inworld",
@@ -61,7 +62,8 @@
               "stt/recall",
               "stt/soniox",
               "stt/speechmatics",
-              "stt/telnyx"
+              "stt/telnyx",
+              "stt/x-ai"
             ]
           },
           {
@@ -150,7 +152,8 @@
               "tts/rime",
               "tts/soniox",
               "tts/speechmatics",
-              "tts/telnyx"
+              "tts/telnyx",
+              "tts/x-ai"
             ]
           },
           {
@@ -198,7 +201,8 @@
         "pages": [
           "agent/all-models",
           "agent/ultravox",
-          "agent/vapi"
+          "agent/vapi",
+          "agent/x-ai"
         ]
       },
       {
